@@ -2,7 +2,7 @@
 const {expect} = require('../chai')
 const request = require('supertest')
 
-const app = require('../../../main/app')
+const app = require('../../main/app')
 
 describe('GET - /', async () => {
 
